@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         liveStr = MutableLiveData<String>()
         liveStr.observeForever {
-            Log.e("Hankkin", liveStr.value + lifecycle.currentState)
+            Log.e("Hankkin2", liveStr.value + lifecycle.currentState)
         }
 
     }
