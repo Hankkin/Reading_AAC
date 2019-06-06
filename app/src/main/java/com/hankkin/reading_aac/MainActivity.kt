@@ -16,10 +16,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        liveStr = MutableLiveData<String>()
-        liveStr.observeForever {
-            Log.e("Hankkin", liveStr.value + lifecycle.currentState)
-        }
+//        liveStr = MutableLiveData<String>()
+//        liveStr.observeForever {
+//            Log.e("Hankkin", liveStr.value + lifecycle.currentState)
+//        }
 
     }
 
