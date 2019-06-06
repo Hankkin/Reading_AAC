@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 //        liveStr.observeForever {
 //            Log.e("Hankkin", liveStr.value + lifecycle.currentState)
 //        }
+        val str = "master"
 
     }
 
