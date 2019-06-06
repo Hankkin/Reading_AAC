@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
             Log.e("Hankkin2", liveStr.value + lifecycle.currentState)
         }
 
+        //master
+        val str = "master"
+
     }
 
     override fun onStart() {
